@@ -1,4 +1,46 @@
+# Task_05_Descriptive_Stats
 
+## 📚 Project Overview
+
+This research project investigates the ability of Large Language Models (LLMs) — specifically **Claude.ai by Anthropic** — to answer natural language questions grounded in descriptive statistics derived from a structured dataset. The goal is to evaluate Claude’s ability to perform factual recall, numerical reasoning, and decision-making based on summarized data.
+
+This task was completed as part of a research-intensive course supervised by Professor Jeff Strome at Syracuse University.
+
+---
+
+## 📊 Dataset: Student Performance in Exams
+
+- **Source:** [Kaggle – Students Performance Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+- **Description:** This dataset contains exam scores in math, reading, and writing for 1,000 students, along with demographic attributes like gender, parental education, and test prep completion.
+- **Note:** *Per project requirements, the dataset is **not included** in this repository. Please download it manually and place it inside the `data/` folder as `StudentsPerformance.csv`.*
+
+---
+
+## 🧭 Project Goals
+
+1. Compute descriptive statistics on the dataset using Python.
+2. Design natural language prompts to query the dataset.
+3. Ask Claude.ai to answer these questions using only summary information.
+4. Validate Claude’s answers against ground-truth script-based results.
+5. Analyze where Claude succeeds, struggles, or fails in reasoning.
+
+---
+
+## 🗂️ Repository Structure
+
+```
+Task_05_Descriptive_Stats/
+├── data/
+│ └── StudentsPerformance.csv # (Local only – not uploaded)
+├── outputs/
+│ ├── descriptive_stats.txt # Raw printed stats
+│ └── validation_stats.json # Correct answers from dataset
+├── .gitignore # Prevents dataset and outputs from being committed
+├── basic_questions.md # 10 basic questions with Claude responses + validation
+├── complex_questions.md # 5 complex questions with reasoning evaluation
+├── descriptive_stats.py # Script to compute descriptive stats
+└── validate_answers.py # Script to generate correct answers programmatically
+```
 ---
 
 ## 🛠️ Tools and Technologies
