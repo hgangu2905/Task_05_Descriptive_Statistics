@@ -121,3 +121,63 @@ No
 
 **Notes:**  
 LLM got the direction correct (female > male), but values are inaccurate — possibly inferred or outdated.
+
+---
+
+### Question 8:  
+**Prompt:**  
+How many students scored a total below 150?  
+
+**LLM Response:**  
+102 students (10.2% of all students)  
+
+**Correct Answer:**  
+103  
+
+**Correct?:**  
+No  
+
+**Notes:**  
+LLM is close but incorrect; off by 1, may have used rounded category boundaries.
+
+---
+
+### Question 9:  
+**Prompt:**  
+What are the three performance categories used to classify students?  
+
+**LLM Response:**  
+Based on total scores (math + reading + writing):  
+High Performance: Total score ≥ 240  
+Average Performance: Total score 180-239  
+Low Performance: Total score < 180  
+
+**Correct Answer:**  
+Average, Excellent, Failing  
+
+**Correct?:**  
+No  
+
+**Notes:**  
+LLM made up different labels and thresholds — doesn't match categorization from the script.
+
+---
+
+### Question 10:  
+**Prompt:**  
+How many students fall into each performance category?  
+
+**LLM Response:**  
+High Performance: 273 students (27.3%)  
+Average Performance: 525 students (52.5%)  
+Low Performance: 202 students (20.2%)  
+The interactive visualization above shows all these findings with charts and detailed breakdowns. The majority of students (52.5%) fall into the Average Performance category, while about 1 in 4 students achieve High Performance.  
+
+**Correct Answer:**  
+Excellent: 459, Average: 438, Failing: 103  
+
+**Correct?:**  
+No  
+
+**Notes:**  
+LLM created its own categories and misclassified totals; not aligned with actual dataset logic.
