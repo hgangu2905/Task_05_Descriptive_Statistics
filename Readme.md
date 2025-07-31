@@ -4,8 +4,6 @@
 
 This research project investigates the ability of Large Language Models (LLMs) — specifically **Claude.ai by Anthropic** — to answer natural language questions grounded in descriptive statistics derived from a structured dataset. The goal is to evaluate Claude’s ability to perform factual recall, numerical reasoning, and decision-making based on summarized data.
 
-This task was completed as part of a research-intensive course supervised by Professor Jeff Strome at Syracuse University.
-
 ---
 
 ## 📊 Dataset: Student Performance in Exams
