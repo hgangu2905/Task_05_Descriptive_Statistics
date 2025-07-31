@@ -1,0 +1,73 @@
+[
+  {
+    "question": "How many students are there in the dataset?",
+    "correct_answer": 1000
+  },
+  {
+    "question": "What is the average math score?",
+    "correct_answer": 66.09
+  },
+  {
+    "question": "What is the average reading score?",
+    "correct_answer": 69.17
+  },
+  {
+    "question": "What is the average writing score?",
+    "correct_answer": 68.05
+  },
+  {
+    "question": "Which subject had the highest average score among students?",
+    "correct_answer": "reading score"
+  },
+  {
+    "question": "How many students completed the test preparation course?",
+    "correct_answer": 358
+  },
+  {
+    "question": "What are the average total scores of male and female students?",
+    "correct_answer": {
+      "female": 208.71,
+      "male": 197.51
+    }
+  },
+  {
+    "question": "How many students scored a total below 150?",
+    "correct_answer": 103
+  },
+  {
+    "question": "What are the three performance categories used to classify students?",
+    "correct_answer": [
+      "Average",
+      "Excellent",
+      "Failing"
+    ]
+  },
+  {
+    "question": "How many students fall into each performance category?",
+    "correct_answer": {
+      "Excellent": 459,
+      "Average": 438,
+      "Failing": 103
+    }
+  },
+  {
+    "question": "Which parental education group has the highest average total score?",
+    "correct_answer": "master's degree"
+  },
+  {
+    "question": "Who benefits more from test preparation \u2014 males or females?",
+    "correct_answer": "female"
+  },
+  {
+    "question": "Which subject shows the most variation in student performance?",
+    "correct_answer": "writing score"
+  },
+  {
+    "question": "Which group (by race/ethnicity) has the highest average writing score?",
+    "correct_answer": "group E"
+  },
+  {
+    "question": "If I want to increase the number of \u201cExcellent\u201d students, which performance category should I focus on and why?",
+    "correct_answer": "Focus on 'Average' category, as they are closest to Excellent and more likely to improve with intervention."
+  }
+]

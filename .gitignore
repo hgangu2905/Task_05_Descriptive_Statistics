@@ -1,0 +1,27 @@
+# Don't commit the dataset file
+data/StudentsPerformance.csv
+
+# Ignore all CSVs in the data folder (just in case)
+data/*.csv
+
+# Ignore all output artifacts
+outputs/*.txt
+outputs/*.json
+outputs/*.csv
+
+# Jupyter/IPython notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode or IDE-specific files
+.vscode/
+*.code-workspace
+
+# System-specific files
+.DS_Store
+Thumbs.db
